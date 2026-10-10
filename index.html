@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>JP Landscaping & Lawn Care</title>
+<meta name="description" content="JP Landscaping & Lawn Care in the Oklahoma City metro: mowing, edging, mulching, flower beds, leaf removal and Christmas light installation. Free estimates from owner Juan Puentes.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="JP Landscaping & Lawn Care | Free Estimates">
+<meta property="og:description" content="Lawn care, landscaping and Christmas light installation in the Oklahoma City metro. Call or text Juan at (405) 802-7758.">
+<meta property="og:image" content="images/jp-share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#123b2b">
+<link rel="icon" type="image/png" href="images/jp-icon.png">
+<link rel="apple-touch-icon" href="images/jp-icon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","additionalType":"https://en.wikipedia.org/wiki/Landscaping","name":"JP Landscaping & Lawn Care","image":"images/jp-official-logo.jpg","logo":"images/jp-official-logo.jpg","telephone":"+1-405-802-7758","email":"jplandscapingcontact@gmail.com","founder":{"@type":"Person","name":"Juan Puentes"},"areaServed":{"@type":"Place","name":"Oklahoma City metro, Oklahoma"},"address":{"@type":"PostalAddress","addressLocality":"Oklahoma City","addressRegion":"OK","addressCountry":"US"},"knowsLanguage":["en","es"],"priceRange":"Free estimates","hasOfferCatalog":{"@type":"OfferCatalog","name":"Lawn care and landscaping services","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Lawn mowing"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Edging"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Leaf removal"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Mulching"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Flower planting and flower beds"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Christmas light installation and removal"}}]}}
+</script>
+<style>
+/* Layout: sticky header, full-bleed bands alternating cream / forest / holiday red, one 1160px content column */
+:root{--forest:#123b2b;--forest-deep:#0c241b;--lime:#c8eb76;--cream:#f6f7f0;--sage:#e9efe5;--ink:#17251d;--muted:#5e6a61;--berry:#6d1d27;--gold:#f6cf78;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream)}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:1160px;margin:auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 22px;border-radius:8px;background:var(--lime);color:var(--forest);font-weight:800;border:0;cursor:pointer;font:inherit;font-weight:800;line-height:1.1}
+.btn.dark{background:var(--forest);color:#fff}
+.btn.outline{border:1px solid #fff8;color:#fff;background:transparent}
+.btn:focus-visible,a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.eyebrow{text-transform:uppercase;letter-spacing:3px;color:var(--lime);font-size:12px;font-weight:900}
+.eyebrow.green{color:#63833a}
+
+/* Holiday booking banner */
+.promo{background:linear-gradient(90deg,var(--berry),#8f2532 55%,var(--berry));color:#fff;font-size:14px}
+.promo .wrap{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding-block:10px;text-align:center}
+.promo strong{color:var(--gold)}
+.promo a{background:var(--gold);color:#3a1015;font-weight:800;padding:7px 12px;border-radius:6px;font-size:13px}
+.promo .x{background:transparent;border:0;color:#fff;font-size:20px;cursor:pointer;padding:2px 6px;line-height:1}
+
+/* Header */
+header{background:#fff;position:sticky;top:env(safe-area-inset-top,0px);z-index:20;box-shadow:0 2px 20px #0001}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:16px}
+.brand-logo{display:flex;align-items:center;gap:10px;font-size:23px;font-weight:900;color:var(--forest);letter-spacing:-.5px}
+.brand-logo img{width:62px;height:62px;object-fit:contain;background:#050505;border-radius:9px}
+.brand-logo span{line-height:1.15}.brand-logo small{display:block;font-size:10px;letter-spacing:2px}
+.links{display:flex;gap:22px;font-size:14px;font-weight:700}
+.links a:hover{color:#63833a}
+.navright{display:flex;align-items:center;gap:10px}
+.lang{display:flex;border:2px solid var(--forest);border-radius:8px;overflow:hidden}
+.lang button{border:0;background:#fff;color:var(--forest);font:inherit;font-weight:800;font-size:13px;padding:9px 11px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--forest);color:#fff}
+
+/* Hero */
+.hero{background:linear-gradient(90deg,#0d2c20ed 0%,#0d2c20bd 48%,#0d2c2044 100%),url('images/project-05.jpg') center/cover,#0d2c20;color:#fff;min-height:600px;display:flex;align-items:center}
+.hero h1{font-size:clamp(44px,6vw,82px);letter-spacing:-3px;line-height:1.04;max-width:760px;margin:18px 0;text-wrap:balance}
+.hero p{font-size:19px;max-width:550px;line-height:1.65;color:#e4eee8}
+.hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.hero .area{margin-top:26px;font-size:14px;color:#cfe3d6;font-weight:700;letter-spacing:.5px}
+
+.brand-feature{background:#000;color:#fff;padding:24px 16px 32px;text-align:center}
+.brand-feature img{display:block;width:100%;max-width:min(1160px,82vh);height:auto;margin:0 auto}
+.brand-feature p{color:#d8e9d7;font-size:15px;margin:16px 0 0}
+
+.strip{background:var(--forest);color:#fff;padding:24px 0}
+.strip .wrap{display:flex;justify-content:space-around;gap:20px;flex-wrap:wrap;font-weight:700}
+
+.section{padding:90px 0}
+.section h2{font-size:clamp(32px,4vw,52px);letter-spacing:-2px;margin:10px 0 16px;text-wrap:balance}
+.lead{color:var(--muted);line-height:1.7;max-width:700px}
+
+/* Services */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px}
+.service{background:#fff;border-radius:15px;padding:30px;box-shadow:0 8px 30px #123b2b0b}
+.service .tag{color:#6b8e3d;font-weight:900;font-size:13px;letter-spacing:1px;text-transform:uppercase}
+.service h3{font-size:23px;margin:18px 0 12px}
+.service p{line-height:1.65;color:#68756c;margin:0}
+
+/* Packages */
+.packs{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:36px}
+.pack{background:#fff;border:1px solid #d9e3d6;border-radius:15px;padding:26px;display:flex;flex-direction:column;gap:14px}
+.pack.feature{background:var(--forest);color:#fff;border-color:var(--forest)}
+.pack h3{margin:0;font-size:21px}
+.pack .price{font-size:15px;font-weight:900;color:#4f7a26;background:#eef5df;border-radius:6px;padding:7px 10px;align-self:flex-start}
+.pack.feature .price{background:#ffffff1c;color:var(--lime)}
+.pack ul{margin:0;padding-left:18px;line-height:1.7;color:#5e6a61;flex:1}
+.pack.feature ul{color:#d4e3d9}
+.pack .btn{width:100%;padding:13px 16px}
+.pack.feature .btn{background:var(--lime)}
+.pack:not(.feature) .btn{background:var(--forest);color:#fff}
+.fine{font-size:13px;color:#647269;margin-top:18px}
+
+/* Gallery */
+.darksec{background:var(--sage)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:35px}
+.photo{position:relative;min-height:290px;border-radius:14px;overflow:hidden;background:#dbe3d4;border:0;padding:0;cursor:pointer;text-align:left}
+.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;transition:transform .35s}
+.photo:hover img{transform:scale(1.06)}
+.photo span{position:absolute;bottom:15px;left:15px;background:#123b2be8;color:#fff;padding:9px 13px;border-radius:7px;font-weight:700;font-size:13px}
+
+/* Before / after slider */
+.progress{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;margin-top:65px}
+.ba{position:relative;width:100%;max-width:520px;aspect-ratio:3/4;border-radius:16px;overflow:hidden;--pos:50%;background:#dbe3d4;justify-self:center;touch-action:pan-y;user-select:none}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .after{clip-path:inset(0 0 0 var(--pos))}
+.ba .divider{position:absolute;top:0;bottom:0;left:var(--pos);width:3px;margin-left:-1.5px;background:#fff;box-shadow:0 0 10px #0006;pointer-events:none}
+.ba .knob{position:absolute;top:50%;left:var(--pos);transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:var(--lime);color:var(--forest);display:grid;place-items:center;font-weight:900;font-size:18px;box-shadow:0 4px 16px #0005;pointer-events:none}
+.ba .lbl{position:absolute;top:14px;background:#123b2be8;color:#fff;padding:7px 11px;border-radius:6px;font-weight:800;font-size:12px;letter-spacing:1px;pointer-events:none}
+.ba .lbl.l{left:14px}.ba .lbl.r{right:14px;background:var(--lime);color:var(--forest)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.ba:has(input:focus-visible){outline:3px solid var(--forest);outline-offset:4px}
+.note{font-size:13px;color:#647269;margin-top:18px}
+
+/* Holiday */
+.holiday{background:radial-gradient(ellipse at top right,var(--berry),#1a3029 70%);color:#fff}
+.holiday h2{max-width:790px}
+.holiday-lead{max-width:720px;line-height:1.8;color:#f3e9e6;font-size:18px}
+.holiday-actions{display:flex;gap:14px;flex-wrap:wrap;margin:28px 0 38px}
+.holiday-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px}
+.holiday-shot{position:relative;display:block;min-height:310px;border:0;border-radius:16px;overflow:hidden;padding:0;cursor:pointer;background:#1b211e}
+.holiday-shot img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .3s}
+.holiday-shot:hover img{transform:scale(1.04)}
+.holiday-shot span{position:absolute;left:14px;bottom:14px;background:#0c241be6;color:#fff;padding:10px 12px;border-radius:8px;font-weight:bold;font-size:13px}
+.holiday-foot{color:#f4d9c7;margin-top:22px;font-weight:700}
+
+/* About */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about img{width:100%;border-radius:18px;max-height:420px;object-fit:cover}
+.about .bilingual{display:inline-block;margin:6px 0 22px;background:#eef5df;color:#3f6620;font-weight:800;font-size:13px;padding:7px 11px;border-radius:6px}
+
+/* Contact */
+.contact{background:var(--forest);color:#fff}
+.contact .lead{color:#d4e3d9}
+.contactbox{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.contact a.u{text-decoration:underline;text-underline-offset:4px}
+.copyline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.copy{background:transparent;border:1px solid #fff6;color:#fff;border-radius:6px;padding:6px 10px;font-weight:700;cursor:pointer;font-size:12px;font-family:inherit}
+.areas{margin-top:26px;border-top:1px solid #ffffff26;padding-top:20px}
+.areas h3{margin:0 0 8px;font-size:16px;color:var(--lime);letter-spacing:1px;text-transform:uppercase}
+.areas p{margin:0;color:#d4e3d9;line-height:1.7}
+.form{display:grid;gap:13px;align-content:start}
+.form input,.form select,.form textarea{padding:15px;border:1px solid #d8e1d8;border-radius:8px;font:inherit;width:100%;background:#fff;color:var(--ink)}
+.form textarea{min-height:120px}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.status{display:none;border-radius:10px;padding:16px;line-height:1.6}
+.status.show{display:grid;gap:10px}
+.status.ok{background:var(--lime);color:var(--forest);font-weight:700}
+.status.manual{background:var(--forest-deep);border:1px solid #2c5a45}
+.status pre{margin:0;white-space:pre-wrap;word-break:break-word;font:14px/1.6 Arial,Helvetica,sans-serif;color:#e4eee8}
+.status .row{display:flex;gap:10px;flex-wrap:wrap}
+.status .btn{padding:11px 16px;font-size:14px}
+.form small{color:#d4e3d9}
+
+footer{background:var(--forest-deep);color:#b9cbc0;padding:25px 0;font-size:13px}
+.footerline{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+
+/* Mobile action bar */
+.mbar{display:none}
+
+/* Lightbox */
+.lightbox{position:fixed;inset:0;z-index:60;background:#07180ff2;display:none;align-items:center;justify-content:center;padding:24px}
+.lightbox.open{display:flex}
+.lightbox img{max-width:95vw;max-height:85vh;object-fit:contain;border-radius:8px}
+.lightbox button{position:absolute;right:22px;top:calc(18px + env(safe-area-inset-top,0px));color:#fff;background:transparent;border:0;font-size:38px;cursor:pointer}
+.lightbox p{position:absolute;bottom:calc(12px + env(safe-area-inset-bottom,0px));color:#fff;text-align:center;margin:0}
+
+@media(max-width:980px){.packs{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){
+ .links{display:none}.hero{min-height:540px}
+ .grid,.gallery{grid-template-columns:repeat(2,1fr)}
+ .about,.contactbox,.progress{grid-template-columns:1fr;gap:30px}
+ .holiday-gallery{grid-template-columns:1fr 1fr}.holiday-shot.large{grid-column:span 2;min-height:330px}
+ .callnow{display:none}
+ .mbar{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));box-shadow:0 -4px 24px #0002}
+ .mbar a{display:flex;align-items:center;justify-content:center;gap:6px;padding:13px 8px;border-radius:8px;font-weight:800;font-size:14px;background:var(--sage);color:var(--forest)}
+ .mbar a.go{background:var(--lime)}
+ body{padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+}
+@media(max-width:540px){
+ .grid,.gallery,.packs{grid-template-columns:1fr}
+ .section{padding:65px 0}.hero h1{letter-spacing:-2px}.hero{background-position:65% center}
+ .wrap{padding:0 18px}
+ .brand-logo img{width:49px;height:49px}.brand-logo span{font-size:14px}.brand-logo small{font-size:8px}.nav{gap:8px}
+ .lang button{padding:8px 9px}
+ .holiday-gallery{grid-template-columns:1fr}.holiday-shot.large{grid-column:auto}.holiday-shot{min-height:290px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.photo img,.holiday-shot img{transition:none}}
+</style>
+</head>
+<body>
+
+
+<div class="promo" id="promo" hidden>
+  <div class="wrap">
+    <span><strong data-i18n="promoTag">Holiday lights:</strong> <span data-i18n="promoText">now booking installs for the</span> <span class="yr"></span> <span data-i18n="promoText2">season. Book early to lock in your date.</span></span>
+    <a href="#holiday" data-i18n="promoBtn">See holiday lights</a>
+    <button class="x" type="button" id="promoClose" aria-label="Dismiss">×</button>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand-logo" href="#home" aria-label="JP Landscaping and Lawn Care home"><img src="images/jp-official-logo.jpg" alt="JP Landscaping & Lawn Care logo"><span>JP LANDSCAPING<small>& LAWN CARE</small></span></a>
+    <nav class="links">
+      <a href="#services" data-i18n="navServices">Services</a>
+      <a href="#pricing" data-i18n="navPricing">Packages</a>
+      <a href="#gallery" data-i18n="navGallery">Gallery</a>
+      <a href="#holiday" data-i18n="navHoliday">Holiday Lights</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="navright">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" id="langEn" aria-pressed="true">EN</button>
+        <button type="button" id="langEs" aria-pressed="false">ES</button>
+      </div>
+      <a class="btn callnow" href="tel:+14058027758" data-i18n="callNow">☎ Call Now</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="eyebrow" data-i18n="heroEyebrow">A better-looking lawn starts here</div>
+    <h1 data-i18n="heroTitle">Your Outdoors.<br>Our Passion.</h1>
+    <p data-i18n="heroText">Beautiful lawns, clean edges, and welcoming landscapes. Personalized lawn care and landscaping from JP Landscaping & Lawn Care.</p>
+    <div class="actions">
+      <a class="btn" href="#contact" data-i18n="heroCta">Get a Free Estimate →</a>
+      <a class="btn outline" href="#gallery" data-i18n="heroCta2">Explore Our Gallery</a>
+    </div>
+    <div class="area" data-i18n="heroArea">Serving the Oklahoma City metro · Se habla español</div>
+  </div>
+</section>
+
+<section class="brand-feature" aria-label="JP Landscaping official logo">
+  <img src="images/jp-official-logo.jpg" alt="JP Landscaping & Lawn Care logo featuring landscaping and Christmas light installation">
+  <p data-i18n="brandLine">Lawn care · Landscaping · Christmas light installation</p>
+</section>
+
+<div class="strip"><div class="wrap">
+  <span data-i18n="strip1">✓ Free Estimates</span><span data-i18n="strip2">✓ Lawn & Landscape Care</span><span data-i18n="strip3">✓ Contact Juan Directly</span><span data-i18n="strip4">✓ Christmas Light Installation</span>
+</div></div>
+
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="eyebrow green" data-i18n="svcEyebrow">What we do</div>
+    <h2 data-i18n="svcTitle">Everything your yard needs.</h2>
+    <p class="lead" data-i18n="svcLead">From routine lawn maintenance to beautiful flower beds, JP Landscaping & Lawn Care helps keep outdoor spaces looking their best.</p>
+    <div class="grid">
+      <article class="service"><span class="tag" data-i18n="s1t">Lawn care</span><h3 data-i18n="s1h">Lawn Mowing</h3><p data-i18n="s1p">Maintain a clean, well-kept lawn with professional mowing.</p></article>
+      <article class="service"><span class="tag" data-i18n="s2t">Detailing</span><h3 data-i18n="s2h">Edging</h3><p data-i18n="s2p">Sharp, defined borders around lawns, sidewalks and driveways.</p></article>
+      <article class="service"><span class="tag" data-i18n="s3t">Seasonal</span><h3 data-i18n="s3h">Leaf Removal</h3><p data-i18n="s3p">Clear fallen leaves and keep outdoor areas tidy.</p></article>
+      <article class="service"><span class="tag" data-i18n="s4t">Landscaping</span><h3 data-i18n="s4h">Mulching</h3><p data-i18n="s4p">Refresh landscape beds with a clean, finished look.</p></article>
+      <article class="service"><span class="tag" data-i18n="s5t">Planting</span><h3 data-i18n="s5h">Flower Planting</h3><p data-i18n="s5p">Add fresh color and life to your outdoor spaces.</p></article>
+      <article class="service"><span class="tag" data-i18n="s6t">Garden care</span><h3 data-i18n="s6h">Flower Beds</h3><p data-i18n="s6p">Flower bed care and improvements that enhance curb appeal.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section darksec" id="pricing">
+  <div class="wrap">
+    <div class="eyebrow green" data-i18n="pkEyebrow">Popular packages</div>
+    <h2 data-i18n="pkTitle">Pick a starting point.</h2>
+    <p class="lead" data-i18n="pkLead">Every yard is different, so Juan prices each job after a quick look. These are the services customers book most.</p>
+    <div class="packs">
+      <article class="pack">
+        <h3 data-i18n="p1h">Weekly Lawn Care</h3>
+        <span class="price" data-price="mowing"></span>
+        <ul><li data-i18n="p1a">Mowing</li><li data-i18n="p1b">Edging along walks and drives</li><li data-i18n="p1c">Clippings blown off hard surfaces</li></ul>
+        <a class="btn" href="#contact" data-pick="Mowing" data-i18n="pkBtn">Request this</a>
+      </article>
+      <article class="pack">
+        <h3 data-i18n="p2h">Bed Refresh</h3>
+        <span class="price" data-price="beds"></span>
+        <ul><li data-i18n="p2a">Weeding and cleanup</li><li data-i18n="p2b">Fresh mulch</li><li data-i18n="p2c">Clean bed edges</li></ul>
+        <a class="btn" href="#contact" data-pick="Mulching" data-i18n="pkBtn">Request this</a>
+      </article>
+      <article class="pack">
+        <h3 data-i18n="p3h">Seasonal Color</h3>
+        <span class="price" data-price="color"></span>
+        <ul><li data-i18n="p3a">Flower planting</li><li data-i18n="p3b">Bed layout and design</li><li data-i18n="p3c">Ongoing flower bed care</li></ul>
+        <a class="btn" href="#contact" data-pick="Flower planting" data-i18n="pkBtn">Request this</a>
+      </article>
+      <article class="pack feature">
+        <h3 data-i18n="p4h">Holiday Lights</h3>
+        <span class="price" data-price="lights"></span>
+        <ul><li data-i18n="p4a">Custom lighting design</li><li data-i18n="p4b">Energy-efficient LED lights</li><li data-i18n="p4c">Installation and removal</li></ul>
+        <a class="btn" href="#contact" data-pick="Christmas light installation & removal" data-i18n="pkBtn">Request this</a>
+      </article>
+    </div>
+    <p class="fine" data-i18n="pkFine">Estimates are always free. Final pricing depends on yard size and the work needed.</p>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="eyebrow green" data-i18n="galEyebrow">Our project portfolio</div>
+    <h2 data-i18n="galTitle">Landscaping that speaks for itself.</h2>
+    <p class="lead" data-i18n="galLead">Real projects by JP Landscaping & Lawn Care. Tap any photo to see it up close.</p>
+    <div class="gallery">
+      <button class="photo" type="button" data-src="images/project-01.jpg" data-k="g1"><img loading="lazy" src="images/project-01.jpg" alt=""><span data-i18n="g1">Curved Flower Bed</span></button>
+      <button class="photo" type="button" data-src="images/project-02.jpg" data-k="g2"><img loading="lazy" src="images/project-02.jpg" alt=""><span data-i18n="g2">Colorful Entry Planting</span></button>
+      <button class="photo" type="button" data-src="images/project-04.jpg" data-k="g3"><img loading="lazy" src="images/project-04.jpg" alt=""><span data-i18n="g3">Stone-Edged Flower Bed</span></button>
+      <button class="photo" type="button" data-src="images/project-05.jpg" data-k="g4"><img loading="lazy" src="images/project-05.jpg" alt=""><span data-i18n="g4">Front Yard Landscaping</span></button>
+      <button class="photo" type="button" data-src="images/project-06.jpg" data-k="g5"><img loading="lazy" src="images/project-06.jpg" alt=""><span data-i18n="g5">Garden Bed — Earlier Stage</span></button>
+      <button class="photo" type="button" data-src="images/project-07.jpg" data-k="g6"><img loading="lazy" src="images/project-07.jpg" alt=""><span data-i18n="g6">Hydrangea & Seasonal Flowers</span></button>
+      <button class="photo" type="button" data-src="images/project-08.jpg" data-k="g7"><img loading="lazy" src="images/project-08.jpg" alt=""><span data-i18n="g7">Front Entry Landscape</span></button>
+      <button class="photo" type="button" data-src="images/seasonal-04.jpg" data-k="g8"><img loading="lazy" src="images/seasonal-04.jpg" alt=""><span data-i18n="g8">Stone-Edged Landscape</span></button>
+      <button class="photo" type="button" data-src="images/seasonal-05.jpg" data-k="g9"><img loading="lazy" src="images/seasonal-05.jpg" alt=""><span data-i18n="g9">Fresh Mulch & Planting</span></button>
+    </div>
+
+    <div class="progress">
+      <div>
+        <div class="eyebrow green" data-i18n="baEyebrow">Project progress</div>
+        <h2 data-i18n="baTitle">Drag to see the difference.</h2>
+        <p class="lead" data-i18n="baLead">The same stone-edged bed at an earlier stage and after fresh, colorful planting. Slide the handle left and right to compare.</p>
+        <p class="note" data-i18n="baNote">Project photos provided by the business.</p>
+      </div>
+      <div class="ba" id="ba">
+        <img src="images/project-06.jpg" alt="Earlier stage of the stone-edged garden bed">
+        <img class="after" src="images/project-04.jpg" alt="The same bed after new flower planting">
+        <span class="lbl l" data-i18n="before">BEFORE</span><span class="lbl r" data-i18n="after">AFTER</span>
+        <div class="divider"></div><div class="knob" aria-hidden="true">⇆</div>
+        <input type="range" id="baRange" min="0" max="100" value="50" aria-label="Compare before and after">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section holiday" id="holiday">
+  <div class="wrap">
+    <div class="eyebrow" style="color:var(--gold)" data-i18n="holEyebrow">Seasonal services · Holiday lights</div>
+    <h2 data-i18n="holTitle">Make your home shine this Christmas.</h2>
+    <p class="holiday-lead" data-i18n="holLead">Beautiful, custom holiday lighting without the hassle. JP Landscaping & Lawn Care offers Christmas light installation and removal, personalized designs, and high-quality energy-efficient LED lights.</p>
+    <div class="holiday-actions">
+      <a class="btn" href="#contact" data-pick="Christmas light installation & removal" data-i18n="holCta">Get a Free Lights Estimate →</a>
+      <a class="btn outline" id="smsLights" href="sms:+14058027758" data-i18n="textJuan">Text Juan</a>
+    </div>
+    <div class="holiday-gallery">
+      <button class="holiday-shot large" type="button" data-src="images/seasonal-02.jpg" data-k="h1"><img src="images/seasonal-02.jpg" loading="lazy" alt="Home lit with red and green Christmas lights"><span data-i18n="h1">Holiday Light Installation</span></button>
+      <button class="holiday-shot" type="button" data-src="images/seasonal-01.jpg" data-k="h2"><img src="images/seasonal-01.jpg" loading="lazy" alt="Christmas light installation flyer"><span data-i18n="h2">Christmas Lighting Designs</span></button>
+      <button class="holiday-shot" type="button" data-src="images/seasonal-03.jpg" data-k="h3"><img src="images/seasonal-03.jpg" loading="lazy" alt="Spanish-language Christmas light installation flyer"><span data-i18n="h3">Servicio en Español</span></button>
+    </div>
+    <p class="holiday-foot" data-i18n="holFoot">Custom designs · LED lighting · Installation & removal</p>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div>
+      <div class="eyebrow green" data-i18n="abEyebrow">Meet the owner</div>
+      <h2 data-i18n="abTitle">Personal service. Great-looking yards.</h2>
+      <span class="bilingual" data-i18n="abLang">English · Español</span>
+      <p class="lead" data-i18n="abLead">JP Landscaping & Lawn Care is owned by <strong>Juan Puentes</strong>. Whether you're looking for routine mowing, detailed edging, or refreshed flower beds, reach out directly to discuss your property and request a free estimate.</p>
+      <a class="btn dark" href="tel:+14058027758" data-i18n="abCta">Speak with Juan →</a>
+    </div>
+    <img src="images/project-08.jpg" alt="Front entry landscape with stone-edged bed and spiral topiary">
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap contactbox">
+    <div>
+      <div class="eyebrow" data-i18n="ctEyebrow">Let's get started</div>
+      <h2 data-i18n="ctTitle">Ready for a better-looking yard?</h2>
+      <p class="lead" data-i18n="ctLead">Tell Juan what your yard needs. Call, text, email, or send an estimate request.</p>
+      <p class="copyline" style="font-size:26px;font-weight:800"><a class="u" href="tel:+14058027758">(405) 802-7758</a><button type="button" class="copy" data-copy="(405) 802-7758" data-i18n="copy">Copy</button></p>
+      <p class="copyline"><a class="u" href="mailto:jplandscapingcontact@gmail.com">jplandscapingcontact@gmail.com</a><button type="button" class="copy" data-copy="jplandscapingcontact@gmail.com" data-i18n="copy">Copy</button></p>
+      <p style="color:#d4e3d9" data-i18n="ctFree">Free estimates available.</p>
+      <div class="areas">
+        <h3 data-i18n="areaTitle">Service area</h3>
+        <p id="areaText" data-i18n="areaText">Oklahoma City and the surrounding metro. Not sure if you're in range? Just ask.</p>
+      </div>
+    </div>
+    <form class="form" id="estForm" novalidate>
+      <input id="name" name="name" required autocomplete="name" data-i18n-ph="phName" placeholder="Your name">
+      <input id="phone" name="phone" required type="tel" autocomplete="tel" data-i18n-ph="phPhone" placeholder="Phone number">
+      <input id="email" name="email" type="email" autocomplete="email" data-i18n-ph="phEmail" placeholder="Email (optional)">
+      <select id="service" name="service" required>
+        <option value="" data-i18n="opt0">Select a service</option>
+        <option value="Mowing" data-i18n="opt1">Mowing</option>
+        <option value="Edging" data-i18n="opt2">Edging</option>
+        <option value="Leaf removal" data-i18n="opt3">Leaf removal</option>
+        <option value="Mulching" data-i18n="opt4">Mulching</option>
+        <option value="Flower planting" data-i18n="opt5">Flower planting</option>
+        <option value="Flower beds" data-i18n="opt6">Flower beds</option>
+        <option value="Christmas light installation & removal" data-i18n="opt7">Christmas light installation & removal</option>
+        <option value="Multiple services" data-i18n="opt8">Multiple services</option>
+      </select>
+      <textarea id="details" name="details" data-i18n-ph="phDetails" placeholder="Tell us about your property and what you need"></textarea>
+      <div class="hp" aria-hidden="true"><label>Leave blank <input id="website" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn" type="submit" id="sendBtn" data-i18n="send">Send Estimate Request →</button>
+      <div class="status ok" id="sentOk" role="status"><span data-i18n="sentOk">Request sent. Juan will reach out soon. For anything urgent, call or text (405) 802-7758.</span></div>
+      <div class="status manual" id="manual" role="status">
+        <span data-i18n="manualHead">Your request is ready. Send it to Juan using one of these:</span>
+        <pre id="reqtext"></pre>
+        <div class="row">
+          <a class="btn" id="reqMail" href="#" data-i18n="openEmail">Open in Email App</a>
+          <a class="btn outline" id="reqSms" href="#" data-i18n="textJuan">Text Juan</a>
+          <button type="button" class="btn outline" id="reqCopy" data-i18n="copyReq">Copy Request</button>
+        </div>
+      </div>
+      <small id="formErr" role="alert"></small>
+      <small data-i18n="privacy">Your details go only to Juan and are never shared.</small>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap footerline"><span>© <span class="yrnow"></span> JP Landscaping & Lawn Care · <span data-i18n="owner">Owner: Juan Puentes</span></span><span data-i18n="footTag">Serving the Oklahoma City metro.</span></div></footer>
+
+<nav class="mbar" aria-label="Quick contact">
+  <a href="tel:+14058027758" data-i18n="mCall">☎ Call</a>
+  <a href="sms:+14058027758" data-i18n="mText">✉ Text</a>
+  <a class="go" href="#contact" data-i18n="mEst">Free Estimate</a>
+</nav>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Project photo">
+  <button type="button" id="lbClose" aria-label="Close photo">×</button>
+  <img id="lightboxImg" alt="">
+  <p id="lightboxLabel"></p>
+</div>
+
+<script>
+/* ===== Edit these when Juan sends them ===== */
+const PRICES = { mowing:"", beds:"", color:"", lights:"" };   // e.g. mowing:"$45" → shows "Starting at $45"
+const AREAS  = [];                                             // e.g. ["Oklahoma City","Edmond","Moore","Yukon"]
+const FORM_ENDPOINT = "https://formsubmit.co/ajax/jplandscapingcontact@gmail.com";
+/* =========================================== */
+
+const ES = {
+promoTag:"Luces navideñas:",promoText:"ya estamos agendando instalaciones para la temporada",promoText2:"· Reserve pronto para asegurar su fecha.",promoBtn:"Ver luces navideñas",
+navServices:"Servicios",navPricing:"Paquetes",navGallery:"Galería",navHoliday:"Luces Navideñas",navContact:"Contacto",callNow:"☎ Llamar",
+heroEyebrow:"Un césped más bonito empieza aquí",heroTitle:"Su jardín.<br>Nuestra pasión.",heroText:"Céspedes hermosos, bordes limpios y jardines acogedores. Cuidado de césped y jardinería personalizados de JP Landscaping & Lawn Care.",heroCta:"Pida un presupuesto gratis →",heroCta2:"Vea nuestra galería",heroArea:"Servimos el área metropolitana de Oklahoma City · We speak English",
+brandLine:"Cuidado de césped · Jardinería · Instalación de luces navideñas",
+strip1:"✓ Presupuestos gratis",strip2:"✓ Cuidado de césped y jardín",strip3:"✓ Hable directamente con Juan",strip4:"✓ Instalación de luces navideñas",
+svcEyebrow:"Lo que hacemos",svcTitle:"Todo lo que su jardín necesita.",svcLead:"Desde el mantenimiento regular del césped hasta hermosos arriates de flores, JP Landscaping & Lawn Care mantiene sus espacios exteriores en su mejor forma.",
+s1t:"Césped",s1h:"Corte de césped",s1p:"Mantenga un césped limpio y bien cuidado con un corte profesional.",
+s2t:"Detalles",s2h:"Bordes",s2p:"Bordes definidos y precisos alrededor del césped, banquetas y entradas.",
+s3t:"Temporada",s3h:"Limpieza de hojas",s3p:"Retiramos las hojas caídas y mantenemos limpias las áreas exteriores.",
+s4t:"Jardinería",s4h:"Mantillo (mulch)",s4p:"Renueve sus arriates con un acabado limpio y terminado.",
+s5t:"Plantación",s5h:"Plantación de flores",s5p:"Agregue color y vida nueva a sus espacios exteriores.",
+s6t:"Jardín",s6h:"Arriates de flores",s6p:"Cuidado y mejoras de arriates que realzan la fachada de su casa.",
+pkEyebrow:"Paquetes populares",pkTitle:"Elija un punto de partida.",pkLead:"Cada jardín es diferente, así que Juan cotiza cada trabajo después de verlo. Estos son los servicios que más piden nuestros clientes.",
+p1h:"Cuidado semanal del césped",p1a:"Corte de césped",p1b:"Bordes en banquetas y entradas",p1c:"Limpieza de recortes en superficies duras",
+p2h:"Renovación de arriates",p2a:"Deshierbe y limpieza",p2b:"Mantillo nuevo",p2c:"Bordes limpios en los arriates",
+p3h:"Color de temporada",p3a:"Plantación de flores",p3b:"Diseño y distribución del arriate",p3c:"Cuidado continuo de arriates",
+p4h:"Luces navideñas",p4a:"Diseño de iluminación personalizado",p4b:"Luces LED de bajo consumo",p4c:"Instalación y remoción",
+pkBtn:"Solicitar",pkFine:"Los presupuestos siempre son gratis. El precio final depende del tamaño del jardín y del trabajo necesario.",
+priceFree:"Presupuesto gratis",priceFrom:"Desde ",
+galEyebrow:"Nuestro portafolio",galTitle:"Trabajos que hablan por sí solos.",galLead:"Proyectos reales de JP Landscaping & Lawn Care. Toque cualquier foto para verla de cerca.",
+g1:"Arriate curvo",g2:"Flores coloridas en la entrada",g3:"Arriate con borde de piedra",g4:"Jardín frontal",g5:"Arriate — etapa inicial",g6:"Hortensias y flores de temporada",g7:"Jardín de entrada",g8:"Jardín con borde de piedra",g9:"Mantillo nuevo y plantas",
+baEyebrow:"Progreso del proyecto",baTitle:"Deslice para ver la diferencia.",baLead:"El mismo arriate con borde de piedra en una etapa inicial y después de plantar flores coloridas. Mueva el control a la izquierda y a la derecha para comparar.",baNote:"Fotos proporcionadas por el negocio.",before:"ANTES",after:"DESPUÉS",
+holEyebrow:"Servicios de temporada · Luces navideñas",holTitle:"Haga brillar su hogar esta Navidad.",holLead:"Iluminación navideña hermosa y personalizada sin complicaciones. JP Landscaping & Lawn Care ofrece instalación y remoción de luces navideñas, diseños personalizados y luces LED de alta calidad y bajo consumo.",holCta:"Presupuesto gratis de luces →",textJuan:"Enviar mensaje a Juan",
+h1:"Instalación de luces navideñas",h2:"Diseños de iluminación navideña",h3:"Servicio en español",holFoot:"Diseños personalizados · Luces LED · Instalación y remoción",
+abEyebrow:"Conozca al dueño",abTitle:"Servicio personal. Jardines que lucen.",abLang:"Español · English",abLead:"JP Landscaping & Lawn Care es propiedad de <strong>Juan Puentes</strong>. Ya sea que necesite corte regular, bordes detallados o renovar sus arriates, comuníquese directamente para hablar de su propiedad y pedir un presupuesto gratis.",abCta:"Hable con Juan →",
+ctEyebrow:"Empecemos",ctTitle:"¿Listo para un jardín más bonito?",ctLead:"Cuéntele a Juan lo que necesita su jardín. Llame, envíe un mensaje, un correo o una solicitud de presupuesto.",copy:"Copiar",ctFree:"Presupuestos gratis disponibles.",
+areaTitle:"Área de servicio",areaText:"Oklahoma City y el área metropolitana. ¿No sabe si estamos en su zona? Pregúntenos.",areaPrefix:"Servimos: ",
+phName:"Su nombre",phPhone:"Número de teléfono",phEmail:"Correo electrónico (opcional)",phDetails:"Cuéntenos sobre su propiedad y lo que necesita",
+opt0:"Seleccione un servicio",opt1:"Corte de césped",opt2:"Bordes",opt3:"Limpieza de hojas",opt4:"Mantillo (mulch)",opt5:"Plantación de flores",opt6:"Arriates de flores",opt7:"Instalación y remoción de luces navideñas",opt8:"Varios servicios",
+send:"Enviar solicitud →",sending:"Enviando…",sentOk:"Solicitud enviada. Juan se comunicará pronto. Si es urgente, llame o envíe un mensaje al (405) 802-7758.",
+manualHead:"Su solicitud está lista. Envíela a Juan de una de estas formas:",openEmail:"Abrir en correo",copyReq:"Copiar solicitud",copied:"Copiado",
+privacy:"Sus datos solo van a Juan y nunca se comparten.",errReq:"Por favor escriba su nombre, teléfono y el servicio que necesita.",
+owner:"Dueño: Juan Puentes",footTag:"Servimos el área metropolitana de Oklahoma City.",mCall:"☎ Llamar",mText:"✉ Mensaje",mEst:"Presupuesto gratis",
+lbls:{}
+};
+const EN_EXTRA={priceFree:"Free estimate",priceFrom:"Starting at ",sending:"Sending…",copied:"Copied",errReq:"Please add your name, phone number and the service you need.",areaPrefix:"Serving: "};
+
+let lang="en";const EN={};
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
+$$("[data-i18n]").forEach(el=>{if(!(el.dataset.i18n in EN))EN[el.dataset.i18n]=el.innerHTML});
+$$("[data-i18n-ph]").forEach(el=>{EN[el.dataset.i18nPh]=el.placeholder});
+Object.assign(EN,EN_EXTRA);
+const t=k=>(lang==="es"?ES:EN)[k]??EN[k]??k;
+
+function renderPrices(){$$("[data-price]").forEach(el=>{const v=PRICES[el.dataset.price];el.textContent=v?t("priceFrom")+v:t("priceFree")})}
+function renderAreas(){if(AREAS.length)$("#areaText").textContent=t("areaPrefix")+AREAS.join(" · ")}
+function setLang(l){
+  lang=l;document.documentElement.lang=l;
+  $$("[data-i18n]").forEach(el=>{el.innerHTML=t(el.dataset.i18n)});
+  $$("[data-i18n-ph]").forEach(el=>{el.placeholder=t(el.dataset.i18nPh)});
+  $("#langEn").setAttribute("aria-pressed",l==="en");$("#langEs").setAttribute("aria-pressed",l==="es");
+  $$(".yr").forEach(e=>e.textContent=new Date().getFullYear());
+  renderPrices();renderAreas();setSms();
+  try{localStorage.setItem("jp-lang",l)}catch(e){}
+}
+function setSms(){const msg=lang==="es"?"Hola Juan, me gustaría un presupuesto para instalación de luces navideñas.":"Hi Juan, I'd like an estimate for Christmas light installation.";$("#smsLights").href="sms:+14058027758?body="+encodeURIComponent(msg)}
+$("#langEn").onclick=()=>setLang("en");$("#langEs").onclick=()=>setLang("es");
+
+/* Holiday banner: shows Oct 1 – Dec 20 unless dismissed */
+(function(){const d=new Date(),m=d.getMonth(),day=d.getDate();const inSeason=m===9||m===10||(m===11&&day<=20);let dismissed=false;try{dismissed=localStorage.getItem("jp-promo-"+d.getFullYear())==="1"}catch(e){}if(inSeason&&!dismissed)$("#promo").hidden=false;$("#promoClose").onclick=()=>{$("#promo").hidden=true;try{localStorage.setItem("jp-promo-"+d.getFullYear(),"1")}catch(e){}}})();
+$$(".yrnow").forEach(e=>e.textContent=new Date().getFullYear());
+
+/* Package / CTA buttons preselect the service */
+$$("[data-pick]").forEach(b=>b.addEventListener("click",()=>{$("#service").value=b.dataset.pick}));
+
+/* Before / after slider */
+const ba=$("#ba"),rng=$("#baRange");rng.addEventListener("input",()=>ba.style.setProperty("--pos",rng.value+"%"));
+
+/* Lightbox */
+const lb=$("#lightbox");
+$$("[data-src]").forEach(b=>b.addEventListener("click",()=>{$("#lightboxImg").src=b.dataset.src;const lab=t(b.dataset.k);$("#lightboxLabel").textContent=lab;$("#lightboxImg").alt=lab;lb.classList.add("open");$("#lbClose").focus()}));
+const closeLb=()=>lb.classList.remove("open");
+$("#lbClose").onclick=closeLb;lb.addEventListener("click",e=>{if(e.target===lb)closeLb()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeLb()});
+
+/* Copy helpers */
+function copyText(txt,btn){const orig=btn.textContent;const ok=()=>{btn.textContent=t("copied");setTimeout(()=>btn.textContent=orig,1600)};try{navigator.clipboard.writeText(txt).then(ok,()=>{})}catch(e){}}
+$$("[data-copy]").forEach(b=>b.addEventListener("click",()=>copyText(b.dataset.copy,b)));
+
+/* Estimate form: sends straight to Juan; falls back to email/text if sending isn't available */
+$("#estForm").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const v=id=>$("#"+id).value.trim();
+  $("#sentOk").classList.remove("show");$("#manual").classList.remove("show");$("#formErr").textContent="";
+  if(!v("name")||!v("phone")||!v("service")){$("#formErr").textContent=t("errReq");return}
+  if(v("website"))return;
+  const svc=$("#service").selectedOptions[0].textContent;
+  const body=`Name: ${v("name")}\nPhone: ${v("phone")}\nEmail: ${v("email")||"-"}\nService: ${svc}\nDetails: ${v("details")||"-"}\nLanguage: ${lang==="es"?"Spanish":"English"}`;
+  const btn=$("#sendBtn"),orig=btn.innerHTML;btn.disabled=true;btn.textContent=t("sending");
+  let sent=false;
+  try{
+    const r=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify({_subject:"New estimate request - JP Landscaping",_template:"table",_captcha:"false",name:v("name"),phone:v("phone"),email:v("email"),service:svc,details:v("details"),language:lang==="es"?"Spanish":"English"})});
+    const j=await r.json().catch(()=>({}));sent=r.ok&&String(j.success)==="true";
+  }catch(err){sent=false}
+  btn.disabled=false;btn.innerHTML=orig;
+  if(sent){$("#sentOk").classList.add("show");e.target.reset();return}
+  $("#reqtext").textContent=body;
+  $("#reqMail").href="mailto:jplandscapingcontact@gmail.com?subject="+encodeURIComponent("Free Estimate Request - JP Landscaping")+"&body="+encodeURIComponent(body);
+  $("#reqSms").href="sms:+14058027758?body="+encodeURIComponent(body);
+  $("#reqCopy").onclick=function(){copyText(body,this)};
+  $("#manual").classList.add("show");
+});
+
+/* Start in the visitor's saved or browser language */
+let start="en";try{start=localStorage.getItem("jp-lang")||((navigator.language||"").toLowerCase().startsWith("es")?"es":"en")}catch(e){}
+setLang(start);
+</script>
+
+</body>
+</html>
